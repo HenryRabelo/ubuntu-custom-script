@@ -1,0 +1,25 @@
+# Ubuntu Custom Changelog:
+
+  -----------
+  Pre-Install
+  -----------
+
+  The system should be installed on full Btrfs by default.
+  
+  The system should separate Root Partition and Home Partition by default.
+  
+  The system should encrypt Partitions by default.
+  
+  ------------
+  Post-Install
+  ------------
+  
+  Installed Flatpak, Multimedia codecs and TLP resource management, which is on by default.
+
+  Installed MSCore Fonts to ensure maximum compatibility of LibreOffice and ONLYOFFICE to .docx documents.
+
+  Installed Geary and Lollypop for e-mail and music streaming.
+
+  Removed outdated or extra apps, for a more lean and secure system.
+
+  Installed Third Party GNOME Shell Extensons, for ease of use: Caffeine; Night Theme Switcher; Blyr.
