@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Enables System Configuration Overrides:
+cp ./modules/syst-settings/* /usr/share/glib-2.0/schemas/
+#
+glib-compile-schemas --strict /usr/share/glib-2.0/schemas/
+# 
+# Enables TLP:
+systemctl enable tlp
+#

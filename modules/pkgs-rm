@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# GNOME Accessories:
+apt remove -y gnome-maps gnome-weather gnome-dictionary gucharmap transmission-common libreoffice-common thunderbird
+#
+# GNOME Multimedia:
+apt remove -y eog cheese gimp shotwell rhythmbox
+#
+# GNOME Developer Tools:
+apt remove -y remmina gnome-system-monitor baobab
+#
+# Daily Driver Extras:
+apt remove -y gnome-documents gnome-contacts gnome-photos gnome-music simple-scan aisleriot
+#
+# Clean-Up:
+apt autoremove -y
+#
+# Removes leftover Snap Store:
+snap remove snap-store
+#
