@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# GThumb PPA:
+add-apt-repository ppa:dhor/myway
+#
+# System Update:
 apt update
 apt full-upgrade -y
 #
@@ -16,7 +20,7 @@ apt install -y adwaita-icon-theme-full gnome-backgrounds
 apt install -y nautilus gedit totem evince file-roller gnome-calendar gnome-clocks gnome-control-center gnome-software geary lollypop
 #
 # GNOME Utils:
-apt install -y gnome-calculator gnome-screenshot gnome-disks gnome-font-viewer gnome-characters gnome-logs deja-dup gthumb
+apt install -y gnome-calculator gnome-screenshot gnome-disk-utility gnome-font-viewer gnome-characters gnome-logs deja-dup gthumb
 #
 # GNOME User Utils:
 apt install -y gnome-usage gnome-chess gnome-terminal
