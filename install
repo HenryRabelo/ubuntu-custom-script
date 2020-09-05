@@ -1,11 +1,15 @@
 #!/bin/bash
 #
 chmod +x ./modules/*
-sudo su -
 #
-./modules/pkgs-rm
+sudo su
+#
 ./modules/pkgs
-./modules/extensions
+./modules/pkgs-rm
 ./modules/syst-config
+#
+exit
+#
+./modules/extensions
 ./modules/flatpak
 #
