@@ -2,14 +2,9 @@
 #
 chmod +x ./modules/*
 #
-sudo su
-#
-./modules/pkgs
-./modules/pkgs-rm
-./modules/syst-config
-#
-exit
-#
+sudo ./modules/pkgs
+sudo ./modules/pkgs-rm
 ./modules/extensions
+sudo ./modules/syst-config
 ./modules/flatpak
 #
