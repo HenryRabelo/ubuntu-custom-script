@@ -11,8 +11,11 @@ wget --https-only -O ./modules/shell-extensions/drive-menu@gnome-shell-extension
 # Night Theme Switcher:
 wget --https-only -O ./modules/shell-extensions/nightthemeswitcher@romainvigier.fr.zip https://extensions.gnome.org/extension-data/nightthemeswitcherromainvigier.fr.v36.shell-extension.zip
 #
+mkdir ./modules/shell-extensions/extracted
+#
   for z in ./modules/shell-extensions/*.zip
 do
-  unar -d "$z" -o /usr/share/gnome-shell/extensions/;
+  unar -d "$z" -o ./modules/shell-extensions/extracted/;
 done
 #
+sudo mv ./modules/shell-extensions/extracted/* /usr/share/gnome-shell/extensions/
