@@ -19,3 +19,4 @@ do
 done
 #
 sudo mv ./modules/shell-extensions/extracted/* /usr/share/gnome-shell/extensions/
+#
