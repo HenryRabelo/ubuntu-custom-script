@@ -2,10 +2,10 @@
 # Dash to Dock Settings #
 #########################
 [org.gnome.shell.extensions.dash-to-dock]
-click-action 'minimize-or-previews'
-shift-click-action 'launch'
-middle-click-action 'cycle-windows'
-shift-middle-click-action 'quit'
+click-action = 'minimize-or-previews'
+shift-click-action = 'launch'
+middle-click-action = 'cycle-windows'
+shift-middle-click-action = 'quit'
 
 ##########################
 # Dash to Panel Settings #
