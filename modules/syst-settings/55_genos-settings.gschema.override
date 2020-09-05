@@ -50,7 +50,7 @@ show-create-link = true
 # GThumb Settings #
 ###################
 [org.gnome.gthumb.browser]
-thumbnail-size = '200'
+thumbnail-size = 200
 maximized = true
 
 #####################
