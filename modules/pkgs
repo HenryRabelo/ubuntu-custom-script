@@ -29,7 +29,7 @@ apt install -y gnome-clocks gnome-calendar geary
 #apt install -y lollypop gthumb gnome-system-monitor
 #
 # GNOME User Custom:
-apt install -y gthumb gnome-usage gnome-terminal
+apt install -y gnome-photos gnome-usage gnome-terminal
 #
 # GNOME Dev Utils:
 #apt install -y gnome-system-monitor gnome-todo gnome-builder gnome-boxes devhelp sysprof baobab seahorse tilix nautilus-extension-tilix nautilus-extension-seahorse

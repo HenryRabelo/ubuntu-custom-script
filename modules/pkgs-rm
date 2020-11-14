@@ -1,19 +1,22 @@
 #!/bin/bash
 #
+# GNOME Defaults:
+apt remove -y gnome-maps gnome-weather gnome-dictionary gnome-contacts gucharmap gimp
+#
 # GNOME Accessories:
-apt remove -y gnome-maps gnome-weather gnome-dictionary gucharmap transmission-common thunderbird
+apt remove -y transmission-common thunderbird
 #
 # GNOME Multimedia:
-apt remove -y eog cheese gimp shotwell rhythmbox
+apt remove -y cheese shotwell simple-scan
+#
+# GNOME Optionals:
+#apt remove -y eog rhythmbox
 #
 # GNOME Developer Tools:
-apt remove -y remmina gnome-system-monitor baobab
+apt remove -y remmina gnome-system-monitor gnome-power-manager baobab seahorse
 #
 # GNOME Games:
-apt remove -y gnome-mahjongg gnome-mines aisleriot
-#
-# Daily Driver Extras:
-apt remove -y gnome-contacts simple-scan
+apt remove -y gnome-mahjongg gnome-mines gnome-sudoku aisleriot
 #
 # Clean-Up:
 apt remove -y mpv gnome-tweaks
