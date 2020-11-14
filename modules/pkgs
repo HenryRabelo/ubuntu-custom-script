@@ -11,19 +11,25 @@ apt full-upgrade -y
 apt install -y ttf-mscorefonts-installer ffmpeg lame exfat-utils gvfs-fuse youtube-dl
 #
 # Backend:
-apt install -y flatpak tlp unar wget gamemode gnome-shell-extension-{gsconnect,caffeine,bluetooth-quick-connect} gnome-software gnome-software-plugin-flatpak flatpak chrome-gnome-shell gnome-sushi
+apt install -y flatpak tlp unar wget gamemode gnome-shell-extension-{gsconnect,caffeine} gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak flatpak chrome-gnome-shell gnome-sushi
 #
 # Theming and Wallpaper:
 apt install -y adwaita-icon-theme-full gnome-backgrounds
 #
-# Core GNOME Apps:
-apt install -y nautilus gedit totem evince file-roller gnome-calendar gnome-clocks gnome-control-center gnome-software geary lollypop
+# GNOME Default Apps:
+apt install -y nautilus gedit totem evince file-roller gnome-control-center gnome-calculator gnome-screenshot gnome-disk-utility gnome-font-viewer gnome-characters gnome-logs deja-dup
 #
-# GNOME Utils:
-apt install -y gnome-calculator gnome-screenshot gnome-disk-utility gnome-font-viewer gnome-characters gnome-logs deja-dup gthumb
+# GNOME User Apps:
+apt install -y gnome-clocks gnome-calendar geary
 #
-# GNOME User Utils:
-apt install -y gnome-usage gnome-chess gnome-terminal
+# GNOME Extra Apps (Minimal):
+#apt install -y gnome-music gnome-photos gnome-usage gnome-terminal
+#
+# GNOME Extra Apps (Advanced):
+#apt install -y lollypop gthumb gnome-system-monitor
+#
+# GNOME User Custom:
+apt install -y gthumb gnome-usage gnome-terminal
 #
 # GNOME Dev Utils:
 #apt install -y gnome-system-monitor gnome-todo gnome-builder gnome-boxes devhelp sysprof baobab seahorse tilix nautilus-extension-tilix nautilus-extension-seahorse

@@ -9,8 +9,11 @@ apt remove -y eog cheese gimp shotwell rhythmbox
 # GNOME Developer Tools:
 apt remove -y remmina gnome-system-monitor baobab
 #
+# GNOME Games:
+apt remove -y gnome-mahjongg gnome-mines aisleriot
+#
 # Daily Driver Extras:
-apt remove -y gnome-documents gnome-contacts gnome-photos gnome-music simple-scan aisleriot
+apt remove -y gnome-contacts simple-scan
 #
 # Clean-Up:
 apt remove -y mpv gnome-tweaks
