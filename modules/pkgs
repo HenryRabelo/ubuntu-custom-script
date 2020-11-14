@@ -1,39 +1,39 @@
 #!/bin/bash
 #
-# GThumb PPA:
+## GThumb PPA:
 add-apt-repository -y ppa:dhor/myway
 #
-# System Update:
+## System Update:
 apt update
 apt full-upgrade -y
 #
-# CODECs and Support:
+## CODECs and Support:
 apt install -y ttf-mscorefonts-installer ffmpeg lame exfat-utils gvfs-fuse youtube-dl
 #
-# Backend:
+## Backend:
 apt install -y flatpak tlp unar wget gamemode gnome-shell-extension-{gsconnect,caffeine} gnome-software gnome-software-plugin-snap gnome-software-plugin-flatpak flatpak chrome-gnome-shell gnome-sushi
 #
-# Theming and Wallpaper:
+## Theming and Wallpaper:
 apt install -y adwaita-icon-theme-full gnome-backgrounds
 #
-# GNOME Default Apps:
+## GNOME Default Apps:
 apt install -y nautilus gedit totem evince file-roller gnome-control-center gnome-calculator gnome-screenshot gnome-disk-utility gnome-font-viewer gnome-characters gnome-logs deja-dup
 #
-# GNOME User Apps:
-apt install -y gnome-clocks gnome-calendar geary
+## GNOME User Apps:
+apt install -y gnome-calendar gnome-clocks geary
 #
-# GNOME Extra Apps (Minimal):
-#apt install -y gnome-music gnome-photos gnome-usage gnome-terminal
+## GNOME Extra Apps (Minimal):
+#apt install -y gnome-photos gnome-music gnome-documents gnome-usage gnome-terminal
 #
-# GNOME Extra Apps (Advanced):
-#apt install -y lollypop gthumb gnome-system-monitor
+## GNOME Extra Apps (Advanced):
+#apt install -y gthumb lollypop gnome-system-monitor tilix
 #
-# GNOME User Custom:
-apt install -y gnome-photos gnome-usage gnome-terminal
+## GNOME User Custom:
+apt install -y gnome-photos gnome-documents gnome-usage
 #
-# GNOME Dev Utils:
+## GNOME Dev Utils:
 #apt install -y gnome-system-monitor gnome-todo gnome-builder gnome-boxes devhelp sysprof baobab seahorse tilix nautilus-extension-tilix nautilus-extension-seahorse
 #
-# GNOME Games:
-#apt install -y gnome-chess gnome-2048 gnome-mahjongg gnome-mines
+## GNOME Games:
+#apt install -y gnome-chess gnome-mahjongg gnome-sudoku gnome-mines
 #
