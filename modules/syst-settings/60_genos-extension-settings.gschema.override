@@ -2,6 +2,7 @@
 # Dash to Dock Settings #
 #########################
 [org.gnome.shell.extensions.dash-to-dock]
+intellihide-mode = 'all_windows'
 click-action = 'minimize-or-previews'
 shift-click-action = 'launch'
 middle-click-action = 'cycle-windows'
