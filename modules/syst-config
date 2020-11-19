@@ -17,3 +17,5 @@ cp ./modules/syst-settings/network-privacy-hardening.conf /etc/NetworkManager/co
 ### Makes Yaru Shell Theme Modifications
 cat ./modules/syst-settings/Yaru-Redux.css >> /usr/share/themes/Yaru-dark/gnome-shell/gnome-shell.css
 #
+cp ./modules/syst-settings/ubuntu-logo-icon.svg /usr/share/themes/Yaru-dark/gnome-shell/
+#
