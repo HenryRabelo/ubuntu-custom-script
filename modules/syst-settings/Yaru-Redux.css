@@ -1,0 +1,59 @@
+
+/* Yaru Theme Mods */
+
+/* Dash to Dock Logo */
+.check_flag_start, .check_flag_end,
+.show-apps:checked .show-apps-icon,
+.show-apps:focus .show-apps-icon {
+	transition-duration: 100ms;
+	background-color: transparent !important;
+	color: transparent;
+	border-width: 0px;
+}
+
+#dashtodockContainer .show-apps .overview-icon, .check_flag_start {
+	
+	background-image: url("ubuntu-logo-icon.svg") !important;
+	background-size: contain;
+	background-color: transparent !important;
+	color: transparent;
+
+}
+
+#dashtodockContainer.extended .show-apps, .check_flag_end {
+
+	background-color: #E95420 !important;
+	background-gradient-direction: vertical;
+	background-gradient-start: transparent;
+	background-gradient-end: #F7713B;
+	box-shadow:inset 0 0px 1px 1px rgba(255,255,255,0.1);
+
+}
+
+
+/* Slider */
+.slider {
+  -barlevel-active-background-color: #3eb34f;
+  -barlevel-active-border-color: #3eb34f;
+}
+
+/* Check Boxes */
+.check-box StBin {
+  background-image: url("checkbox-off.svg"); }
+
+.check-box:focus StBin {
+  background-image: url("checkbox-off-focused.svg"); }
+
+.check-box:checked StBin {
+  background-image: url("checkbox.svg"); }
+
+.check-box:focus:checked StBin {
+  background-image: url("checkbox-focused.svg"); }
+
+/* Switches */
+.toggle-switch {
+  color: #3D3D3D;
+  background-image: url("toggle-off.svg"); }
+  .toggle-switch:checked {
+    background-image: url("toggle-on.svg"); }
+
