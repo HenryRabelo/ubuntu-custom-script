@@ -2,16 +2,10 @@
 /* Yaru Theme Mods */
 
 /* Dash to Dock Logo */
-.check_flag_start, .check_flag_end,
-.show-apps:checked .show-apps-icon,
-.show-apps:focus .show-apps-icon {
-	transition-duration: 100ms;
-	background-color: transparent !important;
-	color: transparent;
-	border-width: 0px;
-}
-
 #dashtodockContainer .show-apps .overview-icon, .check_flag_start {
+	
+	border-radius: 9999px;
+	border-width: 0px;
 	
 	background-image: url("ubuntu-logo-icon.svg") !important;
 	background-size: contain;
@@ -22,11 +16,12 @@
 
 #dashtodockContainer.extended .show-apps, .check_flag_end {
 
+	background: none;
 	background-color: #E95420 !important;
 	background-gradient-direction: vertical;
 	background-gradient-start: transparent;
 	background-gradient-end: #F7713B;
-	box-shadow:inset 0 0px 1px 1px rgba(255,255,255,0.1);
+	box-shadow: inset 0 0px 1px 1px rgba(255,255,255,0.1);
 
 }
 /*
