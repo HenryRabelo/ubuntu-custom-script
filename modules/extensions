@@ -5,9 +5,6 @@
 # Blyr:
 wget --https-only -O ./modules/shell-extensions/blyr@yozoon.dev.gmail.com.zip https://extensions.gnome.org/extension-data/blyryozoon.dev.gmail.com.v8.shell-extension.zip
 #
-# Removable Drive Menu:
-wget --https-only -O ./modules/shell-extensions/drive-menu@gnome-shell-extensions.gcampax.github.com.zip https://extensions.gnome.org/extension-data/drive-menugnome-shell-extensions.gcampax.github.com.v43.shell-extension.zip
-#
 # Night Theme Switcher:
 wget --https-only -O ./modules/shell-extensions/nightthemeswitcher@romainvigier.fr.zip https://extensions.gnome.org/extension-data/nightthemeswitcherromainvigier.fr.v36.shell-extension.zip
 #
